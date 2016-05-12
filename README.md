@@ -1,26 +1,10 @@
-SE450 Final Project Report
+# SE450 OOP design final project
 
-Class diagrams:
-===============
+# Instrutions to run the program:
+1. Clone the repo, run the SE450Project/main/Main.java
+2. Type the parameters to adjust the traffic pattern or just `run`
 
-Sequence diagrams:
-==================
-
-Time summary:
-=============
-
-  --------- ---- --- --- --- -------
-  --------- ---- --- --- --- -------
-
-Big bug in week 3: Pointer aliasing of the “next obstacle”(Using
-debugger wisely is another skill that need to master)
-
-Big bug in week 4: Missed yellow light state in east-west side, hard to
-find out because there only a small delay for the car crossing the road.
-At first, I thought it was the computer not fast enough...
-
-Notes on patterns:
-==================
+# Notes on patterns:
 
 -   State pattern used in the light class: after finishing the code of
     light class, I immediately recognized it as state pattern, which I
@@ -56,8 +40,7 @@ Notes on patterns:
     only need to change a few line of code inside builder class since
     the builder is using the abstract **animator** interface.
 
-Successes and failures:
-=======================
+# Successes and failures:
 
 This project is the single biggest programming homework I ever had. At
 start, I was so intimidated by the huge amount of work I should do to
